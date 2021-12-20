@@ -5,23 +5,25 @@
 
 /* Background Image */
 html { 
-    background: url(img/background.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #22223b;
 }
 
 body {
-    background: url(img/background.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
     font-weight: bold;
-    font-size: 25px;
-    letter-spacing: -1.5px;
+    font-family: 'billy';
+    color: #ff8fcb;
+    font-size: 100px;
+    letter-spacing: -3px;
+}
+
+/* Billy Font Kit */
+@font-face {
+    font-family: 'billy';
+    src: url('Files/Billy Font Kit/billy.woff2') format('woff2'),
+         url('Files/Billy Font Kit/billy.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
 }
 
 .options {
