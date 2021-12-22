@@ -12,6 +12,24 @@ body {
     font-weight: bold;
     font-family: 'billy';
     color: #ff8fcb;
+    font-size: 60px;
+    letter-spacing: -3px;
+    background: #22223b;    
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'billy';
+    color: #ff8fcb;
+    font-size: 60px;
+    letter-spacing: -3px;
+    background: #22223b;  
+}
+
+.top_bar {
+    font-weight: bold;
+    font-family: 'billy';
+    color: #ff8fcb;
     font-size: 100px;
     letter-spacing: -3px;
     background: #4a4e69;
